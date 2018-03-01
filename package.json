@@ -1,0 +1,28 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample Test Project",
+  "main": "index.js",
+  "scripts": {
+    "nemo": "nemo-runner -B test/functional -P chrome -G @sampleTest@",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "praba",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
+    "nemo": "^3.0.3",
+    "nemo-runner": "^1.3.0",
+    "nemo-view": "^2.2.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.4.1",
+    "mocha-allure-reporter": "^1.3.2"
+  }
+}

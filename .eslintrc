@@ -1,0 +1,24 @@
+{
+    "extends": ["eslint:recommended", "standard"],
+    "parser": "babel-eslint",
+    "plugins": [],
+    "env": {
+      "browser": false,
+      "node": true,
+      "amd": false,
+      "mocha": true,
+      "jasmine": false
+    },
+    "ecmaFeatures": {"experimentalObjectRestSpread": true},
+    "globals": {
+      "allure": true
+    },
+    "rules": {
+      "comma-dangle": [0, "never"],
+      "vars-on-top": 0,
+      "no-mixed-spaces-and-tabs": "error",
+      "key-spacing": ["error", { "mode": "strict" }],
+      "keyword-spacing": "error",
+      "no-undef":"off"
+    }
+  }

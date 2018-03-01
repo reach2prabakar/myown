@@ -1,0 +1,62 @@
+{
+    "profilePage": {
+        "locator": ".hub-profile-image",
+        "type": "css"
+    },
+    "profilePic": {
+        "locator": ".employee-details-sec .profile-image img",
+        "type": "css"
+    },
+    "profilePicIcon": {
+        "locator": ".employee-details-sec .icon-camera",
+        "type": "css"
+    },
+    "profilePrefText": {
+        "locator": ".employee-details-sec .showhide-link a",
+        "type": "css"
+    },
+    "profileFirstName": {
+        "locator": ".employee-details-sec .profile-details-text p:first-child span:first-child",
+        "type": "css"
+    },
+    "profileLastName": {
+        "locator": ".employee-details-sec .profile-details-text p:first-child span:last-child",
+        "type":"css"
+    },
+    "profileTitle": {
+        "locator": ".employee-details-sec .profile-details-text p:nth-child(2) span",
+        "type":"css"
+    },
+    "costCenter": {
+        "locator": ".employee-details-sec .profile-details-text p:nth-child(3) span",
+        "type":"css"
+    },
+    "workMail": {
+        "locator": ".employee-details-sec .profile-details-text p:nth-child(4) a",
+        "type":"css"
+    },
+    "changePrefText": {
+        "locator": ".employee-details-sec .profile-details-text .contact-mode li:last-child a .edit-text",
+        "type": "css"
+    },
+    "editIconPref": {
+        "locator": ".employee-details-sec .profile-details-text .contact-mode li:last-child a .edit-icon",
+        "type": "css"
+    },
+    "contactPrefModal": {
+        "locator": ".contact-pref-modal",
+        "type": "css"
+    },
+    "contactPrefModalHdr": {
+        "locator": ".contact-pref-modal h4",
+        "type": "css"
+    },
+    "contactPrefModalClose": {
+        "locator": ".contact-pref-modal h4 .icon-close-x",
+        "type": "css"
+    },
+    "contactPrefModalButton": {
+        "locator": ".contact-pref-modal button",
+        "type": "css"
+    }
+}

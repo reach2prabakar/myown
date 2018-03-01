@@ -1,0 +1,48 @@
+{
+    "driver": {
+      "browser": "chrome"
+    },
+    "plugins": {
+      "view": {
+        "module": "nemo-view",
+        "arguments": ["path:locator"]
+      }
+    },
+    "data": {
+		"baseUrl": "http://www.google.com/"
+    },
+    "profiles": {
+      "base": {
+        "tests": "path:spec/*.js",
+        "env": {
+          "DEBUG": "nemo*"
+        },
+        "mocha": {
+          "timeout": 180000,
+          "reporter": "mocha-allure-reporter",
+          "retries": 0,
+          "require": [
+            "babel-register",
+            "babel-polyfill"
+          ],
+          "grep": "argv:grep"
+        }
+      },
+      "chrome": {
+        "driver": {
+          "browser": "chrome",
+          "capabilities": {
+            "browserName": "Chrome"
+          }
+        }
+      },
+      "firefox": {
+        "driver": {
+          "browser": "firefox",
+          "capabilities": {
+            "browserName": "Firefox"
+          }
+        }
+      }
+    }
+  }
