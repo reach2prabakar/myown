@@ -1,4 +1,4 @@
-package com.test.mahi;
+package com.test.paypal;
 
 import java.io.Serializable;
 
